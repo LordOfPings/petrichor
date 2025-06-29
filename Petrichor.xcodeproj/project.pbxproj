@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A912DAD2E0B6D9500018C9C /* ClashDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DAA2E0B6D9500018C9C /* ClashDisplay-Medium.otf */; };
+		6A912DAE2E0B6D9500018C9C /* ClashDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DAB2E0B6D9500018C9C /* ClashDisplay-Regular.otf */; };
+		6A912DAF2E0B6D9500018C9C /* ClashDisplay-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DAC2E0B6D9500018C9C /* ClashDisplay-Semibold.otf */; };
+		6A912DB02E0B6D9500018C9C /* ClashDisplay-Extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DA82E0B6D9500018C9C /* ClashDisplay-Extralight.otf */; };
+		6A912DB12E0B6D9500018C9C /* ClashDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DA72E0B6D9500018C9C /* ClashDisplay-Bold.otf */; };
+		6A912DB22E0B6D9500018C9C /* ClashDisplay-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DA92E0B6D9500018C9C /* ClashDisplay-Light.otf */; };
+		6A912DC52E0B6DA800018C9C /* Switzer-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DC12E0B6DA800018C9C /* Switzer-Semibold.otf */; };
+		6A912DC62E0B6DA800018C9C /* Switzer-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DC42E0B6DA800018C9C /* Switzer-ThinItalic.otf */; };
+		6A912DC72E0B6DA800018C9C /* Switzer-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DC22E0B6DA800018C9C /* Switzer-SemiboldItalic.otf */; };
+		6A912DC82E0B6DA800018C9C /* Switzer-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DBB2E0B6DA800018C9C /* Switzer-Italic.otf */; };
+		6A912DC92E0B6DA800018C9C /* Switzer-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DB32E0B6DA800018C9C /* Switzer-Black.otf */; };
+		6A912DCA2E0B6DA800018C9C /* Switzer-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DC02E0B6DA800018C9C /* Switzer-Regular.otf */; };
+		6A912DCB2E0B6DA800018C9C /* Switzer-Extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DB92E0B6DA800018C9C /* Switzer-Extralight.otf */; };
+		6A912DCC2E0B6DA800018C9C /* Switzer-Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DB72E0B6DA800018C9C /* Switzer-Extrabold.otf */; };
+		6A912DCD2E0B6DA800018C9C /* Switzer-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DBC2E0B6DA800018C9C /* Switzer-Light.otf */; };
+		6A912DCE2E0B6DA800018C9C /* Switzer-ExtraboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DB82E0B6DA800018C9C /* Switzer-ExtraboldItalic.otf */; };
+		6A912DCF2E0B6DA800018C9C /* Switzer-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DB42E0B6DA800018C9C /* Switzer-BlackItalic.otf */; };
+		6A912DD02E0B6DA800018C9C /* Switzer-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DB52E0B6DA800018C9C /* Switzer-Bold.otf */; };
+		6A912DD12E0B6DA800018C9C /* Switzer-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DBF2E0B6DA800018C9C /* Switzer-MediumItalic.otf */; };
+		6A912DD22E0B6DA800018C9C /* Switzer-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DB62E0B6DA800018C9C /* Switzer-BoldItalic.otf */; };
+		6A912DD32E0B6DA800018C9C /* Switzer-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DC32E0B6DA800018C9C /* Switzer-Thin.otf */; };
+		6A912DD42E0B6DA800018C9C /* Switzer-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DBD2E0B6DA800018C9C /* Switzer-LightItalic.otf */; };
+		6A912DD52E0B6DA800018C9C /* Switzer-ExtralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DBA2E0B6DA800018C9C /* Switzer-ExtralightItalic.otf */; };
+		6A912DD62E0B6DA800018C9C /* Switzer-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DBE2E0B6DA800018C9C /* Switzer-Medium.otf */; };
+		CA2736E62E09E06200210B53 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2736E52E09E05E00210B53 /* Typography.swift */; };
+		CA71F5172E013518002D2E5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA71F5122E013518002D2E5C /* Assets.xcassets */; };
+		CA71F5182E013518002D2E5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA71F5132E013518002D2E5C /* ContentView.swift */; };
+		CA71F51A2E013518002D2E5C /* PetrichorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA71F5152E013518002D2E5C /* PetrichorApp.swift */; };
+		CA71F5232E013644002D2E5C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA71F5222E01363E002D2E5C /* Colors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA71F4F62E00B072002D2E5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA71F4DE2E00B070002D2E5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA71F4E52E00B070002D2E5C;
+			remoteInfo = Petrichor;
+		};
+		CA71F5002E00B072002D2E5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA71F4DE2E00B070002D2E5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA71F4E52E00B070002D2E5C;
+			remoteInfo = Petrichor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A912DA72E0B6D9500018C9C /* ClashDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClashDisplay-Bold.otf"; sourceTree = "<group>"; };
+		6A912DA82E0B6D9500018C9C /* ClashDisplay-Extralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClashDisplay-Extralight.otf"; sourceTree = "<group>"; };
+		6A912DA92E0B6D9500018C9C /* ClashDisplay-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClashDisplay-Light.otf"; sourceTree = "<group>"; };
+		6A912DAA2E0B6D9500018C9C /* ClashDisplay-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClashDisplay-Medium.otf"; sourceTree = "<group>"; };
+		6A912DAB2E0B6D9500018C9C /* ClashDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClashDisplay-Regular.otf"; sourceTree = "<group>"; };
+		6A912DAC2E0B6D9500018C9C /* ClashDisplay-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClashDisplay-Semibold.otf"; sourceTree = "<group>"; };
+		6A912DB32E0B6DA800018C9C /* Switzer-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Switzer-Black.otf"; sourceTree = "<group>"; };
+		6A912DB42E0B6DA800018C9C /* Switzer-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Switzer-BlackItalic.otf"; sourceTree = "<group>"; };
+		6A912DB52E0B6DA800018C9C /* Switzer-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Switzer-Bold.otf"; sourceTree = "<group>"; };
+		6A912DB62E0B6DA800018C9C /* Switzer-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Switzer-BoldItalic.otf"; sourceTree = "<group>"; };
+		6A912DB72E0B6DA800018C9C /* Switzer-Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Switzer-Extrabold.otf"; sourceTree = "<group>"; };
+		6A912DB82E0B6DA800018C9C /* Switzer-ExtraboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Switzer-ExtraboldItalic.otf"; sourceTree = "<group>"; };
+		6A912DB92E0B6DA800018C9C /* Switzer-Extralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Switzer-Extralight.otf"; sourceTree = "<group>"; };
+		6A912DBA2E0B6DA800018C9C /* Switzer-ExtralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Switzer-ExtralightItalic.otf"; sourceTree = "<group>"; };
+		6A912DBB2E0B6DA800018C9C /* Switzer-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Switzer-Italic.otf"; sourceTree = "<group>"; };
+		6A912DBC2E0B6DA800018C9C /* Switzer-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Switzer-Light.otf"; sourceTree = "<group>"; };
+		6A912DBD2E0B6DA800018C9C /* Switzer-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Switzer-LightItalic.otf"; sourceTree = "<group>"; };
+		6A912DBE2E0B6DA800018C9C /* Switzer-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Switzer-Medium.otf"; sourceTree = "<group>"; };
+		6A912DBF2E0B6DA800018C9C /* Switzer-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Switzer-MediumItalic.otf"; sourceTree = "<group>"; };
+		6A912DC02E0B6DA800018C9C /* Switzer-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Switzer-Regular.otf"; sourceTree = "<group>"; };
+		6A912DC12E0B6DA800018C9C /* Switzer-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Switzer-Semibold.otf"; sourceTree = "<group>"; };
+		6A912DC22E0B6DA800018C9C /* Switzer-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Switzer-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		6A912DC32E0B6DA800018C9C /* Switzer-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Switzer-Thin.otf"; sourceTree = "<group>"; };
+		6A912DC42E0B6DA800018C9C /* Switzer-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Switzer-ThinItalic.otf"; sourceTree = "<group>"; };
+		CA2736E52E09E05E00210B53 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		CA71F4E62E00B070002D2E5C /* Petrichor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Petrichor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA71F4F52E00B072002D2E5C /* PetrichorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetrichorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA71F4FF2E00B072002D2E5C /* PetrichorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetrichorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA71F5122E013518002D2E5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA71F5132E013518002D2E5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA71F5152E013518002D2E5C /* PetrichorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetrichorApp.swift; sourceTree = "<group>"; };
+		CA71F5222E01363E002D2E5C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CA71F4F82E00B072002D2E5C /* PetrichorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PetrichorTests;
+			sourceTree = "<group>";
+		};
+		CA71F5022E00B072002D2E5C /* PetrichorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PetrichorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA71F4E32E00B070002D2E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA71F4F22E00B072002D2E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA71F4FC2E00B072002D2E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA71F4DD2E00B070002D2E5C = {
+			isa = PBXGroup;
+			children = (
+				CA71F5162E013518002D2E5C /* Petrichor */,
+				CA71F4F82E00B072002D2E5C /* PetrichorTests */,
+				CA71F5022E00B072002D2E5C /* PetrichorUITests */,
+				CA71F4E72E00B070002D2E5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA71F4E72E00B070002D2E5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA71F4E62E00B070002D2E5C /* Petrichor.app */,
+				CA71F4F52E00B072002D2E5C /* PetrichorTests.xctest */,
+				CA71F4FF2E00B072002D2E5C /* PetrichorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA71F5162E013518002D2E5C /* Petrichor */ = {
+			isa = PBXGroup;
+			children = (
+				CA71F51F2E0135CC002D2E5C /* Resources */,
+				CA71F51E2E0135C7002D2E5C /* Data */,
+				CA71F51D2E0135C0002D2E5C /* Features */,
+				CA71F51C2E0135B9002D2E5C /* Core */,
+				CA71F51B2E0135AE002D2E5C /* App */,
+			);
+			path = Petrichor;
+			sourceTree = "<group>";
+		};
+		CA71F51B2E0135AE002D2E5C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CA71F5132E013518002D2E5C /* ContentView.swift */,
+				CA71F5152E013518002D2E5C /* PetrichorApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CA71F51C2E0135B9002D2E5C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CA71F5202E0135DE002D2E5C /* DesignSystem */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CA71F51D2E0135C0002D2E5C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		CA71F51E2E0135C7002D2E5C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CA71F51F2E0135CC002D2E5C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A912DB32E0B6DA800018C9C /* Switzer-Black.otf */,
+				6A912DB42E0B6DA800018C9C /* Switzer-BlackItalic.otf */,
+				6A912DB52E0B6DA800018C9C /* Switzer-Bold.otf */,
+				6A912DB62E0B6DA800018C9C /* Switzer-BoldItalic.otf */,
+				6A912DB72E0B6DA800018C9C /* Switzer-Extrabold.otf */,
+				6A912DB82E0B6DA800018C9C /* Switzer-ExtraboldItalic.otf */,
+				6A912DB92E0B6DA800018C9C /* Switzer-Extralight.otf */,
+				6A912DBA2E0B6DA800018C9C /* Switzer-ExtralightItalic.otf */,
+				6A912DBB2E0B6DA800018C9C /* Switzer-Italic.otf */,
+				6A912DBC2E0B6DA800018C9C /* Switzer-Light.otf */,
+				6A912DBD2E0B6DA800018C9C /* Switzer-LightItalic.otf */,
+				6A912DBE2E0B6DA800018C9C /* Switzer-Medium.otf */,
+				6A912DBF2E0B6DA800018C9C /* Switzer-MediumItalic.otf */,
+				6A912DC02E0B6DA800018C9C /* Switzer-Regular.otf */,
+				6A912DC12E0B6DA800018C9C /* Switzer-Semibold.otf */,
+				6A912DC22E0B6DA800018C9C /* Switzer-SemiboldItalic.otf */,
+				6A912DC32E0B6DA800018C9C /* Switzer-Thin.otf */,
+				6A912DC42E0B6DA800018C9C /* Switzer-ThinItalic.otf */,
+				6A912DA72E0B6D9500018C9C /* ClashDisplay-Bold.otf */,
+				6A912DA82E0B6D9500018C9C /* ClashDisplay-Extralight.otf */,
+				6A912DA92E0B6D9500018C9C /* ClashDisplay-Light.otf */,
+				6A912DAA2E0B6D9500018C9C /* ClashDisplay-Medium.otf */,
+				6A912DAB2E0B6D9500018C9C /* ClashDisplay-Regular.otf */,
+				6A912DAC2E0B6D9500018C9C /* ClashDisplay-Semibold.otf */,
+				CA71F5122E013518002D2E5C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CA71F5202E0135DE002D2E5C /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				CA2736E52E09E05E00210B53 /* Typography.swift */,
+				CA71F5222E01363E002D2E5C /* Colors.swift */,
+				CA71F5212E0135EA002D2E5C /* Components */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		CA71F5212E0135EA002D2E5C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA71F4E52E00B070002D2E5C /* Petrichor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA71F5092E00B072002D2E5C /* Build configuration list for PBXNativeTarget "Petrichor" */;
+			buildPhases = (
+				CA71F4E22E00B070002D2E5C /* Sources */,
+				CA71F4E32E00B070002D2E5C /* Frameworks */,
+				CA71F4E42E00B070002D2E5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Petrichor;
+			packageProductDependencies = (
+			);
+			productName = Petrichor;
+			productReference = CA71F4E62E00B070002D2E5C /* Petrichor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA71F4F42E00B072002D2E5C /* PetrichorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA71F50C2E00B072002D2E5C /* Build configuration list for PBXNativeTarget "PetrichorTests" */;
+			buildPhases = (
+				CA71F4F12E00B072002D2E5C /* Sources */,
+				CA71F4F22E00B072002D2E5C /* Frameworks */,
+				CA71F4F32E00B072002D2E5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA71F4F72E00B072002D2E5C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CA71F4F82E00B072002D2E5C /* PetrichorTests */,
+			);
+			name = PetrichorTests;
+			packageProductDependencies = (
+			);
+			productName = PetrichorTests;
+			productReference = CA71F4F52E00B072002D2E5C /* PetrichorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA71F4FE2E00B072002D2E5C /* PetrichorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA71F50F2E00B072002D2E5C /* Build configuration list for PBXNativeTarget "PetrichorUITests" */;
+			buildPhases = (
+				CA71F4FB2E00B072002D2E5C /* Sources */,
+				CA71F4FC2E00B072002D2E5C /* Frameworks */,
+				CA71F4FD2E00B072002D2E5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA71F5012E00B072002D2E5C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CA71F5022E00B072002D2E5C /* PetrichorUITests */,
+			);
+			name = PetrichorUITests;
+			packageProductDependencies = (
+			);
+			productName = PetrichorUITests;
+			productReference = CA71F4FF2E00B072002D2E5C /* PetrichorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA71F4DE2E00B070002D2E5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					CA71F4E52E00B070002D2E5C = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					CA71F4F42E00B072002D2E5C = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = CA71F4E52E00B070002D2E5C;
+					};
+					CA71F4FE2E00B072002D2E5C = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = CA71F4E52E00B070002D2E5C;
+					};
+				};
+			};
+			buildConfigurationList = CA71F4E12E00B070002D2E5C /* Build configuration list for PBXProject "Petrichor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA71F4DD2E00B070002D2E5C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CA71F4E72E00B070002D2E5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA71F4E52E00B070002D2E5C /* Petrichor */,
+				CA71F4F42E00B072002D2E5C /* PetrichorTests */,
+				CA71F4FE2E00B072002D2E5C /* PetrichorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA71F4E42E00B070002D2E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA71F5172E013518002D2E5C /* Assets.xcassets in Resources */,
+				6A912DAD2E0B6D9500018C9C /* ClashDisplay-Medium.otf in Resources */,
+				6A912DAE2E0B6D9500018C9C /* ClashDisplay-Regular.otf in Resources */,
+				6A912DAF2E0B6D9500018C9C /* ClashDisplay-Semibold.otf in Resources */,
+				6A912DB02E0B6D9500018C9C /* ClashDisplay-Extralight.otf in Resources */,
+				6A912DB12E0B6D9500018C9C /* ClashDisplay-Bold.otf in Resources */,
+				6A912DB22E0B6D9500018C9C /* ClashDisplay-Light.otf in Resources */,
+				6A912DC52E0B6DA800018C9C /* Switzer-Semibold.otf in Resources */,
+				6A912DC62E0B6DA800018C9C /* Switzer-ThinItalic.otf in Resources */,
+				6A912DC72E0B6DA800018C9C /* Switzer-SemiboldItalic.otf in Resources */,
+				6A912DC82E0B6DA800018C9C /* Switzer-Italic.otf in Resources */,
+				6A912DC92E0B6DA800018C9C /* Switzer-Black.otf in Resources */,
+				6A912DCA2E0B6DA800018C9C /* Switzer-Regular.otf in Resources */,
+				6A912DCB2E0B6DA800018C9C /* Switzer-Extralight.otf in Resources */,
+				6A912DCC2E0B6DA800018C9C /* Switzer-Extrabold.otf in Resources */,
+				6A912DCD2E0B6DA800018C9C /* Switzer-Light.otf in Resources */,
+				6A912DCE2E0B6DA800018C9C /* Switzer-ExtraboldItalic.otf in Resources */,
+				6A912DCF2E0B6DA800018C9C /* Switzer-BlackItalic.otf in Resources */,
+				6A912DD02E0B6DA800018C9C /* Switzer-Bold.otf in Resources */,
+				6A912DD12E0B6DA800018C9C /* Switzer-MediumItalic.otf in Resources */,
+				6A912DD22E0B6DA800018C9C /* Switzer-BoldItalic.otf in Resources */,
+				6A912DD32E0B6DA800018C9C /* Switzer-Thin.otf in Resources */,
+				6A912DD42E0B6DA800018C9C /* Switzer-LightItalic.otf in Resources */,
+				6A912DD52E0B6DA800018C9C /* Switzer-ExtralightItalic.otf in Resources */,
+				6A912DD62E0B6DA800018C9C /* Switzer-Medium.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA71F4F32E00B072002D2E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA71F4FD2E00B072002D2E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA71F4E22E00B070002D2E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA71F5182E013518002D2E5C /* ContentView.swift in Sources */,
+				CA71F5232E013644002D2E5C /* Colors.swift in Sources */,
+				CA2736E62E09E06200210B53 /* Typography.swift in Sources */,
+				CA71F51A2E013518002D2E5C /* PetrichorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA71F4F12E00B072002D2E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA71F4FB2E00B072002D2E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA71F4F72E00B072002D2E5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA71F4E52E00B070002D2E5C /* Petrichor */;
+			targetProxy = CA71F4F62E00B072002D2E5C /* PBXContainerItemProxy */;
+		};
+		CA71F5012E00B072002D2E5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA71F4E52E00B070002D2E5C /* Petrichor */;
+			targetProxy = CA71F5002E00B072002D2E5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA71F5072E00B072002D2E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = B2QR4JYD92;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA71F5082E00B072002D2E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = B2QR4JYD92;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA71F50A2E00B072002D2E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2QR4JYD92;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Petrichor;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blocksdesign.PetrichorDev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA71F50B2E00B072002D2E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2QR4JYD92;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Petrichor;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blocksdesign.Petrichor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA71F50D2E00B072002D2E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2QR4JYD92;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blocksdesign.PetrichorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Petrichor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Petrichor";
+			};
+			name = Debug;
+		};
+		CA71F50E2E00B072002D2E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2QR4JYD92;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blocksdesign.PetrichorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Petrichor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Petrichor";
+			};
+			name = Release;
+		};
+		CA71F5102E00B072002D2E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2QR4JYD92;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blocksdesign.PetrichorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Petrichor;
+			};
+			name = Debug;
+		};
+		CA71F5112E00B072002D2E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2QR4JYD92;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blocksdesign.PetrichorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Petrichor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA71F4E12E00B070002D2E5C /* Build configuration list for PBXProject "Petrichor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA71F5072E00B072002D2E5C /* Debug */,
+				CA71F5082E00B072002D2E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA71F5092E00B072002D2E5C /* Build configuration list for PBXNativeTarget "Petrichor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA71F50A2E00B072002D2E5C /* Debug */,
+				CA71F50B2E00B072002D2E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA71F50C2E00B072002D2E5C /* Build configuration list for PBXNativeTarget "PetrichorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA71F50D2E00B072002D2E5C /* Debug */,
+				CA71F50E2E00B072002D2E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA71F50F2E00B072002D2E5C /* Build configuration list for PBXNativeTarget "PetrichorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA71F5102E00B072002D2E5C /* Debug */,
+				CA71F5112E00B072002D2E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA71F4DE2E00B070002D2E5C /* Project object */;
+}
