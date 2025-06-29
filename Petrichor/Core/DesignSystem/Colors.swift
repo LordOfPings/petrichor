@@ -69,7 +69,7 @@ extension Color {
     
     // MARK: - App-Specific Semantic Colors
     // Primary brand colors
-    static let petrichorPrimary = Color.brandPrimary500
+    static let petrichorPrimary = Color.brandPrimary600
     static let petrichorSecondary = Color.brandPrimary300
     static let petrichorAccent = Color.brandPrimary700
     
@@ -77,11 +77,14 @@ extension Color {
     static let petrichorBackground = Color.neutralsWhite
     static let petrichorSurface = Color.neutralsGrey100
     static let petrichorSurfaceElevated = Color.neutralsWhite
+    static let petrichorBrandBackground = Color.brandPrimary200
     
     // Text colors
     static let petrichorText = Color.neutralsGrey700
+    static let petrichorTextInverse = Color.NeutralsWhite
     static let petrichorTextSecondary = Color.neutralsGrey500
     static let petrichorTextTertiary = Color.neutralsGrey400
+    static let petrichorTextPrimaryDark = Color.brandPrimary800
     
     // Weather status colors
     static let weatherSafe = Color.green500

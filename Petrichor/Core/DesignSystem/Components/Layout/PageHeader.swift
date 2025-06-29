@@ -30,6 +30,11 @@ struct PageHeader: View {
                             .foregroundColor(.petrichorPrimary)
                             .fontWeight(.medium)
                     }
+                    HorizontalSpacer(.medium)
+                    
+                    Text(subtitle)
+                        .bodyStyle()
+                        .foregroundColor(.petrichorTextPrimaryDark)
                 }
                 
                 Spacer()
@@ -37,23 +42,26 @@ struct PageHeader: View {
                 Button(action: onProfile ?? {}) {
                     Image(systemName: "person.circle")
                         .font(.title2)
-                        .foregroundColor(.petrichorTextSecondary)
+                        .foregroundColor(.petrichorPrimary)
                 }
+                
             }
             
             // Page title section
             VStack(alignment: .leading, spacing: 4) {
-                Text(subtitle)
-                    .bodyStyle()
-                    .foregroundColor(.petrichorTextSecondary)
-                
                 Text(title)
                     .xlargeTitle()
-                    .foregroundColor(.petrichorPrimary)
+                    .foregroundColor(.petrichorTextPrimaryDark)
             }
         }
         .padding(.horizontal)
-        .padding(.top)
+        .padding(.top, 32)
+        .padding(.bottom, 32)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background (
+            Color.petrichorBrandBackground
+            .ignoresSafeArea(.all, edges: .top)
+        )
     }
 }
 
@@ -73,5 +81,4 @@ struct PageHeader: View {
         
         Spacer()
     }
-    .background(Color.brandPrimary100.opacity(0.3))
 }

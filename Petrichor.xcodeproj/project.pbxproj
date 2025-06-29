@@ -31,7 +31,7 @@
 		6A912DD42E0B6DA800018C9C /* Switzer-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DBD2E0B6DA800018C9C /* Switzer-LightItalic.otf */; };
 		6A912DD52E0B6DA800018C9C /* Switzer-ExtralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DBA2E0B6DA800018C9C /* Switzer-ExtralightItalic.otf */; };
 		6A912DD62E0B6DA800018C9C /* Switzer-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A912DBE2E0B6DA800018C9C /* Switzer-Medium.otf */; };
-		6A912DEA2E11D2DC00018C9C /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A912DE92E11D2D500018C9C /* Button.swift */; };
+		6A912DEA2E11D2DC00018C9C /* PetrichorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A912DE92E11D2D500018C9C /* PetrichorButton.swift */; };
 		6A912DF02E11D3A400018C9C /* FormFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A912DEF2E11D39E00018C9C /* FormFields.swift */; };
 		6A912DF22E11D44200018C9C /* PageHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A912DF12E11D43E00018C9C /* PageHeader.swift */; };
 		6A912DF42E11D45000018C9C /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A912DF32E11D44A00018C9C /* SectionHeader.swift */; };
@@ -44,6 +44,7 @@
 		CA71F5182E013518002D2E5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA71F5132E013518002D2E5C /* ContentView.swift */; };
 		CA71F51A2E013518002D2E5C /* PetrichorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA71F5152E013518002D2E5C /* PetrichorApp.swift */; };
 		CA71F5232E013644002D2E5C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA71F5222E01363E002D2E5C /* Colors.swift */; };
+		CAF7C9042E11DCB900F287CD /* AddPetForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF7C9032E11DCAD00F287CD /* AddPetForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,7 +89,7 @@
 		6A912DC22E0B6DA800018C9C /* Switzer-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Switzer-SemiboldItalic.otf"; sourceTree = "<group>"; };
 		6A912DC32E0B6DA800018C9C /* Switzer-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Switzer-Thin.otf"; sourceTree = "<group>"; };
 		6A912DC42E0B6DA800018C9C /* Switzer-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Switzer-ThinItalic.otf"; sourceTree = "<group>"; };
-		6A912DE92E11D2D500018C9C /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		6A912DE92E11D2D500018C9C /* PetrichorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetrichorButton.swift; sourceTree = "<group>"; };
 		6A912DEF2E11D39E00018C9C /* FormFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormFields.swift; sourceTree = "<group>"; };
 		6A912DF12E11D43E00018C9C /* PageHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageHeader.swift; sourceTree = "<group>"; };
 		6A912DF32E11D44A00018C9C /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
@@ -104,6 +105,7 @@
 		CA71F5132E013518002D2E5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CA71F5152E013518002D2E5C /* PetrichorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetrichorApp.swift; sourceTree = "<group>"; };
 		CA71F5222E01363E002D2E5C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CAF7C9032E11DCAD00F287CD /* AddPetForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -147,7 +149,7 @@
 		6A912DE32E11D22E00018C9C /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				6A912DE92E11D2D500018C9C /* Button.swift */,
+				6A912DE92E11D2D500018C9C /* PetrichorButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -185,6 +187,7 @@
 		6A912DE72E11D28700018C9C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CAF7C9032E11DCAD00F287CD /* AddPetForm.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -478,9 +481,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A912DEA2E11D2DC00018C9C /* Button.swift in Sources */,
+				6A912DEA2E11D2DC00018C9C /* PetrichorButton.swift in Sources */,
 				6A912DFC2E11D47A00018C9C /* Spacer.swift in Sources */,
 				6A912DF82E11D46100018C9C /* PageTitle.swift in Sources */,
+				CAF7C9042E11DCB900F287CD /* AddPetForm.swift in Sources */,
 				CA71F5182E013518002D2E5C /* ContentView.swift in Sources */,
 				CA71F5232E013644002D2E5C /* Colors.swift in Sources */,
 				6A912DF22E11D44200018C9C /* PageHeader.swift in Sources */,

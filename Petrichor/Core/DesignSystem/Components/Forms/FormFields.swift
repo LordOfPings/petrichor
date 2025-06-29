@@ -182,10 +182,10 @@ struct PetrichorNumberField: View {
                 
                 Text(suffix)
                     .bodyStyle()
-                    .foregroundColor(.petrichorTextSecondary)
+                    .foregroundColor(.petrichorTextInverse)
                     .padding(.horizontal, 16)
                     .padding(.vertical, 12)
-                    .background(Color.brandPrimary100)
+                    .background(Color.brandPrimary600)
             }
             .background(Color.neutralsWhite)
             .cornerRadius(12)
@@ -266,8 +266,8 @@ struct PetrichorSearchField: View {
             
             TextField(placeholder, text: $searchText)
                 .bodyStyle()
-                .onChange(of: searchText) { newValue in
-                    onSearchChanged?(newValue)
+                .onChange(of: searchText){
+                    onSearchChanged?(searchText)
                 }
             
             if !searchText.isEmpty {
