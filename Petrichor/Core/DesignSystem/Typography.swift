@@ -7,6 +7,10 @@ extension Font {
     
     // MARK: - Display Fonts (Headers) - Clash Display
     
+    ///Super Large title 164pt, bold
+    /// Use for weather stat
+    static let xxlargeTitle = Font.custom("ClashDisplay-Semibold", size: 164)
+    
     /// Extra Large Title: 48pt, Semibold
     /// Usage: Hero titles, app name
     static let xlargeTitle = Font.custom("ClashDisplay-Semibold", size: 48)
@@ -60,6 +64,11 @@ extension Font {
 extension View {
     
     // MARK: - Display Typography
+    
+    ///Super large title
+    func xxlargeTitle() -> some View {
+        self.font(.xxlargeTitle)
+    }
     
     /// Extra Large Title style - 48pt ClashDisplay Semibold
     func xlargeTitle() -> some View {

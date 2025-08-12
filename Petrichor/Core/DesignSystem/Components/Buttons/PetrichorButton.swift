@@ -9,7 +9,7 @@ struct PetrichorButton: View {
     var isDisabled: Bool = false
     
     enum ButtonStyle {
-        case primary, secondary, outline
+        case primary, secondary, tertiary, outline
     }
     
     enum ButtonSize {
@@ -58,7 +58,7 @@ struct PetrichorButton: View {
     // MARK: - Style Properties (existing code...)
     private var foregroundColor: Color {
         switch style {
-        case .primary:
+        case .primary, .tertiary:
             return .neutralsWhite
         case .secondary:
             return .petrichorPrimary
@@ -73,6 +73,8 @@ struct PetrichorButton: View {
             return .petrichorPrimary
         case .secondary:
             return .brandPrimary100
+        case .tertiary:
+            return .brandPrimary800
         case .outline:
             return .clear
         }
@@ -80,7 +82,7 @@ struct PetrichorButton: View {
     
     private var borderColor: Color {
         switch style {
-        case .primary, .secondary:
+        case .primary, .secondary, .tertiary:
             return .clear
         case .outline:
             return .petrichorPrimary
@@ -150,6 +152,13 @@ struct PetrichorButton: View {
         PetrichorButton(
             title: "OK",
             action: {},
+            width: .fixed(100)
+        )
+        
+        PetrichorButton(
+            title: "OK",
+            action: {},
+            style: .tertiary,
             width: .fixed(100)
         )
         
